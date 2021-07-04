@@ -19,7 +19,15 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 ### Resumo
 
-Estamos falando de uma possível pandemia a nível global no qual possuímos 5 vacinas(A,B,C,D e E) que são aplicadas via dose única e que são produzidas respectivamente pelos laboratórios:
+Estamos falando de uma possível pandemia a nível global no qual possuímos 5 vacinas(A,B,C,D e E) que deverão ser aplicadas com os respectivos esquemas vacinais (quantidade de doses) e que são produzidas respectivamente pelos laboratórios:
+
+Vacina  Qtd de Doses
+A       1
+B       2
+C       2
+D       1
+E       2
+F       2
 Laboratório		Vacina
 X1		A e B
 X2 		A e C
