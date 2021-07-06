@@ -19,7 +19,7 @@ Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como
 
 ### Resumo
 
-Estamos falando de uma possível pandemia a nível global no qual possuímos 5 vacinas(A,B,C,D e E) que deverão ser aplicadas com os respectivos esquemas vacinais (quantidade de doses) e que são produzidas respectivamente pelos laboratórios:
+Estamos falando de uma possível pandemia a nível global no qual possuímos 5 vacinas(A,B,C,D e E) que deverão ser aplicadas com esquema vacinal de uma dose e que são produzidas respectivamente pelos laboratórios:
 
 Vacina  Qtd de Doses
 A       1
@@ -36,9 +36,10 @@ X4 		A e E
 X5 		A, B e C
 X7	 	B e C
 X6 		F
-Entendemos que apesar de todos os esforços, existem várias novas variantes do vírus que são muito agressivas e sob incerteza de cobertura vacinal por parte de cada vacinas.  Devido a este fato, ficou determinado pelo Ministério da Saúde que atende uma população de 200 milhões de habitantes, a necessidade de compras mínimas para cada vacina (15 milhões) para tentar garantir um mínimo de cobertura vacinal possível.
+Entendemos que apesar de todos os esforços, existem várias novas variantes do vírus que são muito agressivas e sob incerteza de cobertura vacinal por parte de cada vacinas. Devido a este fato, ficou determinado pelo Ministério da Saúde que atende uma população de 200 milhões de habitantes, a necessidade de compras mínimas para cada vacina (15 milhões) para tentar garantir um mínimo de cobertura vacinal possível
 
-O escopo deste projeto inclui a obtenção do menor custo para os processos de: fornecimento do IFA (ingrediente farmacêutico ativo), produção local e a distribuição.
+O escopo deste processo inclui a obtenção do menor custo para os processos de: fornecimento do IFA (ingrediente farmacêutico ativo), produção local e a distribuição.
+
 Sabemos que o país possui 4 plantas (1,2,3 e 4) e que cada planta irá produzir da seguinte forma:
 Planta		Vacinas
 1	      	A e B
@@ -71,7 +72,11 @@ Planta		Custo
 4		      35k
 
 
-Foi utilizada a ferramenta Solver do Excel para identificar quais seriam os melhores resultados que atendessem os requisitos do problema.
+Com relação as quantidades a serem disponibilizadas pelos laboratórios(variáveis), os laboratórios X1, X2 e X4 receberam tratamento através de simulações de análise de Monte Carlo realizadas em Python (análise por desvio padrão e análise do % de target).
+
+As quantidades referentes aos laboratórios X3, X5, X6 eX7 foram calculadas através do processo de otimização no Solver do Excel.
+
+
 
 ### Abstract <!-- Opcional! Caso não aplicável, remover esta seção -->
 
