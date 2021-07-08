@@ -4,8 +4,8 @@ Projeto Final - Otimização - Solver - POC Distrib de Vacinas
 
 # Otimização processo de produção e distribuição de vacinas
 
-#### Alun(o/a): Rodrigo da Mata Tini(https://github.com/rodrigotini).
-#### Orientador(/a/es/as): Professor Felipe(https://github.com/link_do_github).
+Aluno: Rodrigo da Mata Tini(https://github.com/rodrigotini).
+Orientador: Professor Felipe Borges (https://github.com/FelipeBorgesC)
 
 
 ---
